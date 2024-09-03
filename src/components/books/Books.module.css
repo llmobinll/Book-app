@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+}
+
+.cards {
+  width: 100%;
+  flex: 2.6 1 0;
+}
+.favorite {
+  background-color: #6552f4;
+  flex: 1.1 1 0;
+  border-radius: 8px;
+  height: fit-content;
+  margin-left: 20px;
+  padding: 10px;
+}
+.favorite h4 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}

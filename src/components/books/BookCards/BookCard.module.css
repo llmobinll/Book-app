@@ -1,0 +1,39 @@
+.card {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #303030;
+  border-radius: 10px;
+}
+.card img {
+  border-radius: 5px;
+  width: 60px;
+  margin-right: 40px;
+}
+.info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+.info p {
+  font-size: 15px;
+}
+.info span {
+  color: #959595;
+  margin-right: 20px;
+  font-size: 0.85rem;
+}
+.card button {
+  background: none;
+  border: none;
+  height: fit-content;
+  cursor: pointer;
+  transition: 0.2s all ease-out;
+}
+.card button:hover {
+  transform: scale(1.2);
+}
